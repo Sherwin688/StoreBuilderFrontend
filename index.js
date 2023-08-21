@@ -9,7 +9,6 @@ const port = process.env.PORT || 8000;
 app.use(express.json());
 app.use(cors({
   origin: 'https://main--enchanting-bunny-435412.netlify.app'
-  // origin: 'http://localhost:3000'
 }));
 const shopifyApiUrl = process.env.SHOPIFY_APP_URL;
 
